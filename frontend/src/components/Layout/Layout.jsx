@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { LayoutDashboard, Link2, BarChart3, User, LogOut, Shield } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
+import { AuthContext } from "../../context/AuthContext";
 import { NeonButton } from '../components/UI/NeonUI';
 
 const Layout = ({ children }) => {
